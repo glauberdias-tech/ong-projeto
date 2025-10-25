@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ONG Exemplo — Missão e Contato</title>
+  <meta name="description" content="ONG Exemplo: projetos sociais, voluntariado e doações." />
+ 
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <a href="index.html" aria-label="Página inicial">
+        <img src="assets/img/Logo.webp" alt="Logotipo ONG Exemplo" width="160">
+      </a>
+    </div>
+    <nav aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="sobre">
+      <h1 id="sobre">Nossa missão</h1>
+      <img src="assets/img/nossa-missao.webp" alt="Voluntários em sala de aula" loading="lazy">
+      <p>A ONG IMPACTA+ atua para transformar vidas por meio da educação, saúde e cidadania, promovendo oportunidades que geram autonomia e dignidade.
+Acreditamos que o verdadeiro progresso nasce quando cada pessoa tem acesso ao conhecimento, ao cuidado e ao poder de participar ativamente da sociedade.
+Por meio de projetos sociais, ações comunitárias e parcerias sustentáveis, trabalhamos para construir um futuro mais justo, solidário e humano — um impacto que começa em cada indivíduo e se espalha por toda a comunidade.</p>
+    </section>
+
+    <section aria-labelledby="impacto">
+      <h2 id="impacto">Impacto</h2>
+      <img src="assets/img/impacto.webp" alt="Voluntários em sala de aula" loading="lazy">
+      <p>Desde 2015, atendemos mais de 2.000 pessoas em projetos comunitários.</p>
+    </section>
+
+    <aside aria-labelledby="contato">
+      <h2 id="contato">Contato</h2>
+      <address>
+        Rua Exemplo, 123 — Cidade, Estado<br>
+        <a href="tel:+5511999999999">+55 (11) 99999-9999</a><br>
+        <a href="mailto:contato@ongexemplo.org">contato@ongexemplo.org</a>
+      </address>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="ano"></span> ONG Impacta+ — Transparência</p>
+  </footer>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
